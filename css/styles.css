@@ -1,0 +1,192 @@
+* {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=42285), auto; 
+    font-family: 'Coiny', cursive;
+}
+@keyframes pato1 {
+    0%   { left: 20%; top: 10%;  }
+    10%  { left: 80%; top: 20%;  }
+    20%  { left: 70%; top: 30%;  }
+    30%  { left: 40%; top: 25%;  }
+    40%  { left: 10%; top: 50%;  }
+    50%  { left: 20%; top: 30%;  }
+    60%  { left: 90%; top: 20%;  }
+    70%  { left: 80%; top: 60%;  }
+    80%  { left: 55%; top: 40%;  }
+    90%  { left: 80%; top: 10%;  }
+    100% { left: 20%; top: 10%;  }
+}
+@keyframes pato2 {
+    0%   { left: 20%; top: 33%; }
+    10%  { left: 6%; top: 32%;  }
+    20%  { left: 65%; top: 33%; }
+    30%  { left: 24%; top: 25%; }
+    40%  { left: 60%; top: 55%; }
+    50%  { left: 50%; top: 30%; }
+    60%  { left: 29%; top: 33%; }
+    80%  { left: 33%; top: 54%; }
+    90%  { left: 65%; top: 41%; }
+    100% { left: 20%; top: 33%; }
+}
+@keyframes pato3 {
+    0%   { left: 23%; top: 61%; }
+    50%  { left: 22%; top: 3%;  }
+    80%  { left: 58%; top: 74%; }
+    90%  { left: 28%; top: 11%; }
+    100% { left: 23%; top: 61%; }
+}
+@keyframes pato4 {
+    0%   { left: 20%; top: 10%; }
+    20%  { left: 55%; top: 40%;  }
+    50%  { right: 80%; top: 80%; }
+    80%  { left: 30%; top: 40%; }
+    100% { left: 20%; top: 10%;  }
+}
+@keyframes pato5 {
+    0%   { left: 20%; top: 10%; }
+    25%  { left: 40%; top: 25%;  }
+    50%  { left: 10%; top: 30%; }
+    75%  { left: 55%; top: 40%;  }
+    90%  { right: 90%; top: 20%;  }
+    100% { left: 20%; top: 10%; }
+}
+@keyframes pato6 {
+    0%   { left: 20%; top: 10%; }
+    25%  { left: 40%; top: 25%; }
+    50%  { left: 20%; top: 30%;  }
+    75%  { left: 55%; top: 40%;  }
+    90%  { left: 90%; top: 20%;  }
+    100% { left: 20%; top: 10%; }
+}
+@keyframes pato7 {
+    0%   { left: 10%; top: 25%; }
+    25%  { left: 40%; top: 25%; }
+    50%  { left: 20%; top: 30%;  }
+    75%  { left: 55%; top: 40%;  }
+    90%  { left: 90%; top: 20%;  }
+    100% { left: 10%; top: 25%; }
+}
+@keyframes pato8 {
+    0%   { left: 10%; top: 50%; }
+    25%  { left: 40%; top: 60%; }
+    50%  { left: 20%; top: 20%;  }
+    75%  { left: 55%; top: 10%;  }
+    90%  { left: 90%; top: 10%;  }
+    100% { left: 10%; top: 50%; }
+}
+@keyframes pato9 {
+    0%   { left: 20%; top: 60%;  }
+    25%  { left: 40%; top: 20%;  }
+    50%  { left: 20%; top: 30%;  }
+    75%  { left: 55%; top: -10%; }
+    90%  { left: 10%; top: 20%;  }
+   100%  { left: 20%; top: 60%;  }
+}
+@keyframes pato10 {
+    0%   { left: 10%; top: 80%; }
+    25%  { left: 40%; top: 20%; }
+    50%  { left: 20%; top: 30%; }
+    75%  { left: 55%; top: 10%; }
+    90%  { left: 10%; top: 20%; }
+    100% { left: 10%; top: 80%; }
+}
+nav {
+/*     background: #000; */
+    
+    color: rgba(0,0,0,0.3);
+    font-size: 27px;
+    padding: 10px;
+    text-align: center;
+/*     border-bottom: 2px dashed #333; */
+    position: fixed;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+}
+h3 {
+    text-align: center;
+    bottom: 10px;
+}
+.background{
+    /* background-color: antiquewhite; */
+    /* margin-top: 10vh; */
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-34580.jpg');
+    /* object-fit: cover; */
+    height: 90vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+.button {
+    float: right;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+#result {
+    float: right;
+    position: relative;
+    top: 300px;
+    background: lightgreen;
+    border-bottom: 2px dashed lightslategray;
+    padding: 20px 20px;
+}
+.pato1,
+.pato2,
+.pato3,
+.pato4,
+.pato5,
+.pato6,
+.pato7,
+.pato8,
+.pato9,
+.pato10 {
+    position: fixed;
+    float: left;   
+}
+.pato1 {
+    animation: pato1 10s;
+    animation-iteration-count: infinite;
+}
+.pato2 {
+    animation: pato2 10s;
+    animation-iteration-count: infinite;
+}
+.pato3 {
+    animation: pato3 10s;
+    animation-iteration-count: infinite;
+}
+.pato4 {
+    animation: pato4 10s;
+    animation-iteration-count: infinite;
+}
+.pato5 {
+    animation: pato5 10s;
+    animation-iteration-count: infinite;
+}
+.pato6 {
+    animation: pato6 10s;
+    animation-iteration-count: infinite;
+}
+.pato7 {
+    animation: pato7 5s;
+    animation-iteration-count: infinite;
+}
+.pato8 {
+    animation: pato8 18s;
+    animation-iteration-count: infinite;
+}
+.pato9 {
+    animation: pato9 2s;
+    animation-iteration-count: infinite;
+}
+.pato10 {
+    animation: pato10 10s;
+    animation-iteration-count: infinite;
+}
+h3:active {
+    background: red;
+    cursor: cell;
+}
+img:hover{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=42286), auto;
+}
